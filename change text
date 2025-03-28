@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Text Example</title>
+</head>
+<body>
+    <h1 id="text">This is the original text</h1>
+    <button onclick="changeText()">Change Text</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").textContent = "The text has been changed!";
+        }
+    </script>
+</body>
+</html>
