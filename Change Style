@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Style Example</title>
+</head>
+<body>
+    <p id="styledText">This text will have its style changed.</p>
+    <button onclick="changeStyle()">Change Style</button>
+
+    <script>
+        function changeStyle() {
+            const text = document.getElementById("styledText");
+            text.style.color = "blue";
+            text.style.fontSize = "24px";
+            text.style.fontWeight = "bold";
+        }
+    </script>
+</body>
+</html>
