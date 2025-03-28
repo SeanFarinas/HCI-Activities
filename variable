@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adding x and y</title>
+</head>
+<body>
+    <p id="description">We’ll calculate the sum of <strong>x</strong> and <strong>y</strong>, where x = 5 and y = 6.</p>
+    <p id="result"></p> 
+
+    <script>
+        var x = 5;
+        var y = 6; 
+        var sum = x + y;
+
+        document.getElementById("result").textContent = "The sum of x and y is: " + sum;
+    </script>
+</body>
+</html>
+    
