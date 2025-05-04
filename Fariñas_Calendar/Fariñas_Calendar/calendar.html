@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calendar-container">
+    <!-- Month Selector -->
+    <div id="month-selector">
+      <h1>2026 Calendar</h1>
+      <div class="months-grid">
+        <button data-month="0">January</button>
+        <button data-month="1">February</button>
+        <button data-month="2">March</button>
+        <button data-month="3">April</button>
+        <button data-month="4">May</button>
+        <button data-month="5">June</button>
+        <button data-month="6">July</button>
+        <button data-month="7">August</button>
+        <button data-month="8">September</button>
+        <button data-month="9">October</button>
+        <button data-month="10">November</button>
+        <button data-month="11">December</button>
+      </div>
+    </div>
+
+    <!-- Month View -->
+    <div id="month-view" class="hidden">
+      <div class="navigation">
+        <button id="prev-month">&lt; Prev</button>
+        <h2 id="month-title"></h2>
+        <button id="next-month">Next &gt;</button>
+      </div>
+      <table class="calendar">
+        <thead>
+          <tr>
+            <th>Su</th><th>Mo</th><th>Tu</th><th>We</th><th>Th</th><th>Fr</th><th>Sa</th>
+          </tr>
+        </thead>
+        <tbody id="dates-grid"></tbody>
+      </table>
+      <div style="text-align: center;">
+        <button id="back-to-months">Back to Months</button>
+      </div>
+    </div>
+    
+
+  <script src="farinas.js"></script>
+</body>
+</html>
